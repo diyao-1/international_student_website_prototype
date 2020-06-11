@@ -1,0 +1,68 @@
+ header {
+    background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    font-size: 40px; 
+}
+        nav {
+            border: 1px solid black;
+            padding: 6px;
+            
+        }
+        a   {
+            color:firebrick;
+            text-decoration:none;
+        }
+        
+        a:hover {
+    color: #ffcccc;
+
+}
+        h1  {
+            color:black;
+            font-family:fantasy;
+            text-align: center;
+            background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+            font-size: 35px;
+        }
+        
+        footer{
+            text-align: center;
+        }
+        
+        h2{
+            font-family:fantasy;
+            background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+            text-align: center;
+            font-size: 25px;
+        }
+body{background-color: #D9E5E3;}
+
+        .courses{list-style: none;}
+        .coursename{border:solid;padding:20px; border-color:skyblue; background-color: lightblue; color:white; font-size:20px; border-radius:10px;}
+
+ p{margin:10px;font-size: 15px;}
+        .course{padding-top:30px;margin:20px;}
+        .instruction{font-size:20px;}
+        .note{font-size:15px;}
+form{margin-left: 25%; margin-right: 25%; width: 50%; font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;background-color:lightsteelblue;}
+        
+
+
+        
+        #frequency{width:200px;}
+        
+        #department{height:25px;}
+        
+        #coursedetail{height:50px; width:300px;}
+        
+        #proposedate{width:200px;}
+        #submission{padding:30px;font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+
+textarea{width:300px;}
+        .table_button{margin:20px;}
+
+        fieldset{margin:20px; padding:20px 12px 10px 20px; border-radius: 12px;}
+        
+        .leg{font-size: 22px; padding:20px;font-style: italic; font-family:serif;}
+        .margin{padding-right:0; padding-left:0;}

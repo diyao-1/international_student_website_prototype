@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>Additional Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/OIS.css">
+    
+
+</head>
+<body>
+
+     <div class="container-fluid">
+    <header class="row">
+        <div class = "col-xs-3 col-s-1 col-md-1 col-lg-1"> 
+        <img src="images/IU.image.jpg" alt="IU Logo" style="width:50px ; height:50px" class="img-responsive"> 
+        </div>
+        <h4 class = "col-xs-9 col-s-11 col-md-11 col-lg-11">
+         INDIANA UNIVERSITY
+        </h4>
+        <div class = "col-xs-12 col-s-12 col-md-12 col-lg-12 text-center">
+         Office of International Services
+        </div>
+    </header>
+    
+      <nav class="navbar navbar-default col-s-12 col-md-12 col-lg-12">
+        <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+            
+        <li class="dropdown">
+        <a href="Faculty.html" class="dropdown-toggle" data-toggle="dropdown">Faculty and Staff <span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="Faculty.html">Faculty</a></li>
+            <li><a href="courseproposal.html">Course Proposal</a></li>
+            <li><a href="Support_Staff_Ranking.html">Rating Staff</a></li>
+            <li><a href="Response.html">Response Form for Staff</a></li>
+            <li><a href="tripitinerary.html">Enter Trip Itinerary</a></li>
+            <li><a href="evaluatetrip.html">Evaluate Trip Activities</a></li>   
+            </ul>
+            
+            </li>
+            
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="Application.html">Apply to Trips </a></li>
+            <li><a href="additionalinfo.html">Add Additional information</a></li>
+            </ul>
+            
+            </li>
+            
+            
+        <li class="dropdown">   
+        <a href="committee.html" class="dropdown-toggle" data-toggle="dropdown">Committee<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="evaluateproposal.html">Evaluate Course Proposal</a></li>
+            <li><a href="evaluationapp.html">Evaluate Student Application</a></li>
+            </ul>
+            
+        </li>
+            
+        <li class="dropdown">   
+        <a href="director.html" class="dropdown-toggle" data-toggle="dropdown">Director<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="allocatestafftrips.html">Allocate Staff Trips</a></li>
+            <li><a href="approvecourse.html">Approve Courses</a></li>
+            </ul>
+            
+        </li>
+            
+                
+    </ul>
+            </nav>
+    
+    <main>
+       
+        <form action="additionalinfo2.html" method="get">
+        <h2>Enter Additional Info</h2>
+            <fieldset>
+                <legend>Student Information</legend>
+                <div class="input-group " >
+                <label class="input-group-addon" for="studentfirst">First Name: </label>
+                <input class="form-control" type="text" name="studentfirst" id="studentfirst" required><br>
+                </div>
+                <div class="input-group " >
+                <label class="input-group-addon" for="studentlast">Last Name: </label>
+                <input class="form-control" type="text" name="studentlast" id="studentlast" required><br>
+                </div>
+                <div class="input-group " >
+                <label class="input-group-addon" for="studentid">Student ID: </label>
+                <input class="form-control" type="text" name="studentid" id="studentid" required><br> 
+                </div>
+                <div class="input-group " >
+                <label class="input-group-addon" for="studentemail">Email Address: </label>
+                <input class="form-control" type="email" name="studentemail" id="studentemail"><br> 
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Scholarship Information</legend>
+                <label>Did you receive any scholarships? </label><br>
+                <label for="scholarship">Yes</label>
+                <input type="radio" name="scholarship" id="scholarship" value="Yes">
+                <label for="scholarships">No</label>
+                <input type="radio" name="scholarships" id="scholarships" value="No"><br>
+                
+                <div class="input-group " >
+                <label class="input-group-addon" for="amount">Amount:</label>
+                <input class="form-control" type="text" name="amount" id="amount"><br>
+                </div>
+                <div class="input-group " >
+                <label class="input-group-addon" for="scholarname">Scholarship Name(s): </label>
+                <input class="form-control" type="text" name="scholarname" id="scholarname" ><br>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Return Trip Information</legend>
+                
+                <label for="return">Will you return to Bloomington with the group? </label> <br>
+                <label for="returnyes">Yes</label>
+                <input type="radio" name="returnyes" id="returnyes" value="Yes">
+                <label for="returnno">No</label>
+                <input type="radio" name="returnno" id="returnno" value="No"><br>
+                <div class="input-group " >
+                <label class="input-group-addon" for="reason">If not, please explain: </label>
+                <input class="form-control" type="textarea" name="reason" id="reason"><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Indicate Acceptance</legend>
+                
+            
+                <div class="input-group " >
+                <label class="input-group-addon" for="accept">Please indicate your electronic acceptance by signing your name: </label><br>
+                <input class="form-control" type="text" name="accept" id="accept"><br>
+                </div>
+                <input type="reset" name = "reset" id = "reset" value = "Reset">
+                
+                <input type="submit" name = "sumbit" id = "submit" value = "Submit">
+            
+                
+            
+            </fieldset>
+        </form>
+       
+    </main>
+      
+    <footer>
+        <p>OIS | Phone: 812-855-9086 | Indiana University Poplars 221,400 E. Seventh Street, Bloomington, IN 47405</p>
+    </footer>
+    </div>
+</body>
+</html>

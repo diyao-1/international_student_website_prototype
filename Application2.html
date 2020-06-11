@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>Returning Course Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/OIS.css">
+    
+
+</head>
+<body>
+
+     <div class="container-fluid">
+    <header class="row">
+        <div class = "col-xs-3 col-s-1 col-md-1 col-lg-1"> 
+        <img src="images/IU.image.jpg" alt="IU Logo" style="width:50px ; height:50px" class="img-responsive"> 
+        </div>
+        <h4 class = "col-xs-9 col-s-11 col-md-11 col-lg-11">
+         INDIANA UNIVERSITY
+        </h4>
+        <div class = "col-xs-12 col-s-12 col-md-12 col-lg-12 text-center">
+         Office of International Services
+        </div>
+    </header>
+   
+    
+      <nav class="navbar navbar-default col-s-12 col-md-12 col-lg-12">
+        <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+            
+        <li class="dropdown">
+        <a href="Faculty.html" class="dropdown-toggle" data-toggle="dropdown">Faculty and Staff <span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="Faculty.html">Faculty</a></li>
+            <li><a href="courseproposal.html">Course Proposal</a></li>
+            <li><a href="Support_Staff_Ranking.html">Rating Staff</a></li>
+            <li><a href="Response.html">Response Form for Staff</a></li>
+            <li><a href="tripitinerary.html">Enter Trip Itinerary</a></li>
+            <li><a href="evaluatetrip.html">Evaluate Trip Activities</a></li>   
+            </ul>
+            
+            </li>
+            
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="Application.html">Apply to Trips </a></li>
+            <li><a href="additionalinfo.html">Add Additional information</a></li>
+            </ul>
+            
+            </li>
+            
+            
+        <li class="dropdown">   
+        <a href="committee.html" class="dropdown-toggle" data-toggle="dropdown">Committee<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="evaluateproposal.html">Evaluate Course Proposal</a></li>
+            <li><a href="evaluationapp.html">Evaluate Student Application</a></li>
+            </ul>
+            
+        </li>
+            
+        <li class="dropdown">   
+        <a href="director.html" class="dropdown-toggle" data-toggle="dropdown">Director<span class="caret"></span></a>
+            
+            <ul class="dropdown-menu">
+            <li><a href="allocatestafftrips.html">Allocate Staff Trips</a></li>
+            <li><a href="approvecourse.html">Approve Courses</a></li>
+            </ul>
+            
+        </li>
+            
+                
+    </ul>
+            </nav>
+    
+    <main>
+    <h2>Student Application</h2>
+   
+         
+    <div class="container">
+       
+        <div class="row">
+            
+        <form action="Application3.html" method="post">
+           
+            <fieldset>
+                <legend class="leg">Enter your information</legend>
+                
+                
+                <div class="input-group">         
+                <label class="input-group-addon" for="first123"> First Name: </label>                    
+                <input class="form-control"  type="text" name="first123" 
+                id="first123" placeholder="Enter your first name" required><br>
+                </div>
+               
+             
+                <div class="input-group " >
+                <label class="input-group-addon" for="last123"> Last Name:</label>
+                    
+                    <input class="form-control"  type="text" name="last123" 
+                       id="last123" placeholder="Enter your last name" required><br>
+                </div>              
+               
+                
+                
+                <div class="input-group " >
+                <label class="input-group-addon" for="StudentID123"> Student ID:</label>
+                    
+                    <input class="form-control"  type="text" name="StudentID123" 
+                       id="StudentID123"  required><br>
+                </div>              
+                
+               
+                <div class="input-group " >
+                <label class="input-group-addon" for="eMAIL123">Email Address:</label>
+                
+                    <input class="form-control"  type="text" name="eMAIL123" 
+                       id="eMAIL123" required><br>
+                </div>              
+               
+                
+                <div class="input-group " >
+                <label class="input-group-addon" for="GPA123"> GPA:</label>
+                    
+                    <input class="form-control"  type="text" name="GPA123" 
+                       id="GPA123"  required><br>
+                </div>
+                
+                <div class="input-group " >
+                <label class="input-group-addon" for="Major123"> Major: </label>
+                    
+                    <input class="form-control"  type="text" name="Major123" 
+                       id="Major123"  required><br>
+                </div>  
+ 
+                <div class="input-group " >
+                <label class="input-group-addon" for="Work123"> Work Experience: </label>
+                    
+                    <input class="form-control"  type="text" name="Work123" 
+                       id="Work123" ><br>
+                </div>  
+                
+                
+                
+                <div class="input-group" >
+                    
+                <label class="input-group-addon" for="Rank1" >Rank your first trip:</label>
+                    
+                    <select class="form-control" name="Rank1" 
+                       id="Rank1"  required><br>
+                    <option ></option>
+                    <option value="Tokyo">Introduction to International Finance in Tokyo, Japan</option>
+                    <option value="Shanghai">Global Investment in Shanghai, China</option> 
+                    <option value="Barcelona">International Information Systems in Barcelona, Spain</option>
+                    <option value="Venice">Globalization of Supply Chain in Venice, Italy</option>
+                    <option value="Frankfurt">Introduction to International Accounting in Frankfurt, Germany</option>
+                </select>
+                </div>              
+                
+                
+                <div class="input-group" >
+                    
+                <label class="input-group-addon" for="Rank2">Rank your second trip:</label>
+                  
+                    <select class="form-control" name="Rank2" 
+                       id="Rank2" ><br>
+                    <option></option>
+                    <option value="Tokyo">Introduction to International Finance in Tokyo, Japan</option>
+                    <option value="Shanghai">Global Investment in Shanghai, China</option> 
+                    <option value="Barcelona">International Information Systems in Barcelona, Spain</option>
+                    <option value="Venice">Globalization of Supply Chain in Venice, Italy</option>
+                    <option value="Frankfurt">Introduction to International Accounting in Frankfurt, Germany</option>
+                </select>
+                </div>              
+                                
+                
+                                <div class="input-group" >
+                    
+                <label class="input-group-addon" for="Rank3">Rank your third trip:</label>
+                   
+                    <select class="form-control" name="Rank3" 
+                       id="Rank3" ><br>
+                    <option></option>
+                    <option value="Tokyo">Introduction to International Finance in Tokyo, Japan</option>
+                    <option value="Shanghai">Global Investment in Shanghai, China</option> 
+                    <option value="Barcelona">International Information Systems in Barcelona, Spain</option>
+                    <option value="Venice">Globalization of Supply Chain in Venice, Italy</option>
+                    <option value="Frankfurt">Introduction to International Accounting in Frankfurt, Germany</option>
+                </select>
+                </div>              
+              
+                
+                                <div class="input-group" >
+                    
+                <label class="input-group-addon" for="Rank4">Rank your fourth trip:</label>
+                  
+                    <select class="form-control" name="Rank4" 
+                       id="Rank4"  ><br>
+                    <option></option>
+                    <option value="Tokyo">Introduction to International Finance in Tokyo, Japan</option>
+                    <option value="Shanghai">Global Investment in Shanghai, China</option> 
+                    <option value="Barcelona">International Information Systems in Barcelona, Spain</option>
+                    <option value="Venice">Globalization of Supply Chain in Venice, Italy</option>
+                    <option value="Frankfurt">Introduction to International Accounting in Frankfurt, Germany</option>
+                </select>
+                </div>              
+             
+                
+                                <div class="input-group" >
+                    
+                <label class="input-group-addon" for="Rank5">Rank your fifth trip:</label>
+                   
+                    <select class="form-control" name="Rank5" 
+                       id="Rank5"  ><br>
+                    <option></option>
+                    <option value="Tokyo">Introduction to International Finance in Tokyo, Japan</option>
+                    <option value="Shanghai">Global Investment in Shanghai, China</option> 
+                    <option value="Barcelona">International Information Systems in Barcelona, Spain</option>
+                    <option value="Venice">Globalization of Supply Chain in Venice, Italy</option>
+                    <option value="Frankfurt">Introduction to International Accounting in Frankfurt, Germany</option>
+                </select>
+                </div>              
+
+                
+                <div class="input-group " >
+                <label class="input-group-addon" for="Reason123"> Reasons for applying for the program: </label>
+                    
+                    <input class="form-control"  type="text" name="Reason123" 
+                       id="Reason123" ><br>
+                </div>  
+                
+                <br><br>
+                <input type="reset" name = "reset" id = "reset" value = "Reset">
+                <input type="submit" name = "submit" id = "submit" value = "Submit">
+                
+
+                               
+            
+        </fieldset>
+        </form>
+        </div>
+            </div>
+
+      </main> 
+    <footer>
+        <p>OIS | Phone: 812-855-9086 | Indiana University Poplars 221,400 E. Seventh Street, Bloomington, IN 47405</p>
+    </footer>
+   </div>      
+</body>
+</html>
