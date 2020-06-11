@@ -1,6 +1,6 @@
 # international_student_website_prototype
 A HTML based project. 
-This project was compelted by December 2018. 
+This project was completed by December 2018. 
 
 Project Description: 
 Kelley School – Indiana University
